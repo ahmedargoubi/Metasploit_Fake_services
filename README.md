@@ -9,9 +9,6 @@ This repository contains a detailed guide on using the Metasploit framework to c
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Configuration , Exploitation and Verification](#Configuration,Exploitation_and_Verification)
-- [Security Considerations](#security-considerations)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
