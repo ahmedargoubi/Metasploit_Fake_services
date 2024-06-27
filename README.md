@@ -71,9 +71,8 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
     ```bash
     exploit
     ```
-## Exploitation
 
-1. **Verify the Fake Server is Running**:
+5. **Verify the Fake Server is Running**:
 
     Use Nmap to scan for the open FTP port (21):
 
@@ -81,7 +80,7 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
     nmap -p21 192.168.23.128
     ```
 
-2. **Connect to the Fake FTP Server**:
+6. **Connect to the Fake FTP Server**:
 
     Use an FTP client to connect to the fake server:
 
@@ -89,18 +88,16 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
     ftp 192.168.23.128
     ```
 
-3. **Enter Username and Password**:
+7. **Enter Username and Password**:
 
     When prompted, enter any username and password. These credentials will be captured by the fake server.
 
-## Verification
-
-1. **Check Captured Credentials**:
+8. **Check Captured Credentials**:
 
     In the Metasploit console, view the captured credentials:
 
     ```bash
-    creds
+    [+] FTP LOGIN 192.168.23.149:37216 ahmed / hello friend
     ```
 
     You should see the username and password entered during the FTP connection.
