@@ -39,7 +39,7 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
     sudo apt update
     sudo apt install metasploit-framework
     ```
-    2. **Start Metasploit Console**:
+2. **Start Metasploit Console**:
 
     ```bash
     msfconsole
