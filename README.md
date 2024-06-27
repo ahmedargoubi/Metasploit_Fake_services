@@ -39,6 +39,33 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
     sudo apt update
     sudo apt install metasploit-framework
     ```
+    ## Configuration
+
+### FTP
+
+1. **Select the FTP Capture Module**:
+
+    ```bash
+    use auxiliary/server/capture/ftp
+    ```
+
+2. **Set the Server Host**:
+
+    ```bash
+    set SRVHOST 192.168.23.128
+    ```
+
+3. **Set a Custom Banner**:
+
+    ```bash
+    set BANNER "Welcome"
+    ```
+
+4. **Launch the Fake FTP Server**:
+
+    ```bash
+    exploit
+    ```
 
 2. **Start Metasploit Console**:
 
