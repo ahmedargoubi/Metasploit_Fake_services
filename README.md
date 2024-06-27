@@ -93,7 +93,7 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
 
    ### Telnet
 
- 1. **Select The Telnet Capture Module** :
+1. **Select The Telnet Capture Module** :
 
     ```bash
     ftp 192.168.23.149
@@ -118,13 +118,13 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
     nmap -p23 192.168.23.149
     ```
 
- 5. **Connect using a Telnet Client**:
+5. **Connect using a Telnet Client**:
 
     ```bash
     telnet 192.168.23.149
     ```
 
- 6. **Enter Username and Password**:
+6. **Enter Username and Password**:
 
     The credentials will be captured by the fake server.
 
