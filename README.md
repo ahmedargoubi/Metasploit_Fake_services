@@ -8,15 +8,7 @@ This repository contains a detailed guide on using the Metasploit framework to c
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Configuration](#configuration)
-- [Exploitation](#exploitation)
-- [Verification](#verification)
-- [Using Metasploit for Different Services](#using-metasploit-for-different-services)
-  - [Telnet](#telnet)
-  - [VNC](#vnc)
-  - [SMB](#smb)
-  - [HTTP Basic](#http-basic)
-  - [SMTP](#smtp)
+- [Configuration , Exploitation and Verification](#Configuration,Exploitation_and_Verification)
 - [Security Considerations](#security-considerations)
 - [Contributing](#contributing)
 - [License](#license)
@@ -44,7 +36,7 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
     ```bash
     msfconsole
     ```
-    ## Configuration
+    ## Configuration , Exploitation and Verification
 
 ### FTP
 
