@@ -93,12 +93,12 @@ This guide explains how to use Metasploit's auxiliary modules to set up fake ser
 
    ### Telnet
 
-   1. **Select The Telnet Capture Module** :
+ 1. **Select The Telnet Capture Module** :
 
     ```bash
     ftp 192.168.23.149
     ```
-   2. **Set the Server Host**:
+ 2. **Set the Server Host**:
 
     ```bash
     set SRVHOST 192.168.23.149
